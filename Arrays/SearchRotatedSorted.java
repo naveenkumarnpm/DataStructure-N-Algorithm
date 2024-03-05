@@ -1,12 +1,12 @@
 public class SearchRotatedSorted {
     public static void main(String[] args) {
-        int arr[]={4,5,6,1,2,3};
-        int find=2;
+        int arr[]={4,5,6,7,1,3};
 
-        int first=arr[0];
+        int first=0;
         int last=arr.length-1;
 
         int mid=0;
+       
 
         while(first<last)
         {
