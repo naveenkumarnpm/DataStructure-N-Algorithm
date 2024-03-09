@@ -18,10 +18,10 @@ public class rotateArray {
 
         System.out.println("enter how many elements to reverse");
         int k=sc.nextInt();
-
+        System.out.println("values before");
         for(int a:arr)
         {
-            System.out.println("values before"+a);
+            System.out.print(a);
         }
 
         //int k=3;
@@ -34,10 +34,10 @@ public class rotateArray {
         }
         
         System.out.println();
-
+        System.out.println("values after");
         for(int a:arr)
         {
-            System.out.println("values after"+a);
+            System.out.print(a);
         }
         
         
