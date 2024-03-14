@@ -44,18 +44,3 @@ public class Candies {
         }
     }
 }
-
-
-
-// for(int i=0;i<candies.length;i++)
-//         {
-//             int sum=candies[i]+extraCandies;
-//             for(int j=0;j<candies.length;j++)
-//             {
-//                 if(sum>=candies[j])
-//                 {
-//                     list.add(i,true);
-//                     break;
-//                 }
-//             }
-//         }
