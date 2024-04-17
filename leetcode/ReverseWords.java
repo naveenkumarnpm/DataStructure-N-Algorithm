@@ -1,5 +1,3 @@
-package leetcode;
-
 public class ReverseWords {
 
     public String reverseWords(String s) {

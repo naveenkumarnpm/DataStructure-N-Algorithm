@@ -1,4 +1,4 @@
-package leetcode;
+
 public class StringContainCheck {
 
     public String gcdOfStrings(String string1, String string2) {
