@@ -21,7 +21,7 @@ public class greatestElementsInRight {
                 }
             }
             if (max == arr[i]) {
-                System.out.println("testing max value "+max);
+                System.out.println("testing max  value "+max);
                 list.add(arr[i]);
             }
            
