@@ -33,7 +33,7 @@ public class greeting {
 
     // swapping the letter
     // if odd
-        char[] strs=str;   //assigned to a new char array
+        char[] strs=str;   //assigned to a new char array 
         System.out.print("The Swapped string is: ");
             for(int i=0;i<strs.length-1;i+=2){
                 if (Character.isWhitespace(strs[i])) {
