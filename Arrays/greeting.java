@@ -42,7 +42,7 @@ public class greeting {
                 char temp=strs[i];
                 strs[i]=strs[i+1];
                 strs[i+1]=temp;
-                                          //one mistake solved
+                //one mistake solved
             }
         System.out.println(strs);
         
