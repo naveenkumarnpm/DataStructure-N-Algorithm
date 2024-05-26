@@ -48,7 +48,7 @@ public class greeting {
         
         System.out.println(str);
     
-            // toggle the letters
+            // toggle the letters 
         char[] news=new char[str.length];
         for(int i=0;i<str.length;i++){
                 if (Character.isUpperCase(str[i])){
