@@ -31,7 +31,7 @@ public class greeting {
         System.out.println();
 
 
-    // swapping the letter
+    // swapping the letter 
     // if odd
         char[] strs=str;   //assigned to a new char array 
         System.out.print("The Swapped string is: ");
