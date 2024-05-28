@@ -9,6 +9,24 @@ public class Prime {
         n=sc.nextInt();
 
         if(n<=1)
-        
+        {
+            System.out.println("not prime");
+            return;
+        }
+        if(n==2 || n==3)
+        {
+            System.out.println("Prime number");
+            return;
+        }
+        for(int i=3;i<Math.sqrt(n);i++)
+        {
+            if(n%i==0)
+            {
+                System.out.println("not Prime");
+                return;
+            }
+        }
+        System.out.println("prime number");
+
     }
 }
