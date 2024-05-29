@@ -18,7 +18,7 @@ public class Prime {
             System.out.println("Prime number");
             return;
         }
-        for(int i=3;i<Math.sqrt(n);i++)
+        for(int i=2;i<n;i++)
         {
             if(n%i==0)
             {
@@ -26,6 +26,7 @@ public class Prime {
                 return;
             }
         }
+        System.out.println("number "+n);
         System.out.println("prime number");
 
     }
